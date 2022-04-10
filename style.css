@@ -3,3 +3,19 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px lightgray;
+    padding: 10px;
+}
