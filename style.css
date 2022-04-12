@@ -16,7 +16,13 @@ body {
     height: 100vh;
 }
 
+.flex {
+    display: flex;
+    justify-content: left;
+}
+
 .card {
+    position: relative;
     border: 1px solid gray;
     border-radius: 10px;
     box-shadow: 1px 1px 2px 2px lightgray;
@@ -25,4 +31,21 @@ body {
     padding: 1rem;
     background-color: #333;
     color: #ddd;
+}
+
+.tags {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+}
+
+.badge {
+    margin: 0 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0.1em 0.3em;
+}
+
+.badge:hover {
+    background-color: orange;
 }
